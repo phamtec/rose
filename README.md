@@ -1,7 +1,6 @@
 # rose
 
-	Connect 6 servos up to rose petals and then use this to send IR commands to
-	drop the petals off the rose.
+	Connect 6 servos up to rose petals and then use this to send IR commands to drop the petals off the rose.
  
  	Circuit:
 	- Petals are on servos attached to pins 4 through 9
