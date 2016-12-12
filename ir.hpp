@@ -1,3 +1,13 @@
+/*
+ * IR
+ * 
+ * Interface to an IR port. It returns the number
+ * of the rose petal to start.
+ * 
+ * Author: Paul Hamilton
+ * Date: 12 Dec 2016
+ * 
+ */
 #ifndef H_IR
 #define H_IR
 

@@ -1,3 +1,25 @@
+/*
+ * rose
+ * 
+ * Connect 6 servos up to rose petals and then use this to send IR commands to
+ * drop the petals off the rose.
+ * 
+ * Petals are on pins 4 through 9
+ * The IR interface is on pin 11
+ * 
+ * commands are:
+ *  RC5 0xFF629A
+ *  RC5 0xFF629B
+ *  RC5 0xFF629C
+ *  RC5 0xFF629D
+ *  RC5 0xFF629E
+ *  RC5 0xFF629F
+ *  
+ * Author: Paul Hamilton
+ * Date: 12 Dec 2016
+ * 
+ */
+
 #include <Servo.h>
 
 #include "petal.hpp"

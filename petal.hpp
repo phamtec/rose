@@ -1,3 +1,17 @@
+/*
+ * Petal
+ * 
+ * A single petal of the rose. init with a pin number where
+ * the servo lives, a start and end angle of the servo.
+ * 
+ * When you want to start it going call "start()" and then in the
+ * main loop call "service()" with the number of ms that have
+ * elapsed since last time.
+ * 
+ * Author: Paul Hamilton
+ * Date: 12 Dec 2016
+ * 
+ */
 #ifndef H_PETAL
 #define H_PETAL
 
